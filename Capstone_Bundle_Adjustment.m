@@ -1,3 +1,10 @@
+git = settings().matlab.sourcecontrol.git;
+git.PrivateKeyFile.PersonalValue = "C:\Users\matth\.ssh\id_ed25519";
+git.PublicKeyFile.PersonalValue = "C:\Users\matth\.ssh\id_ed25519.pub";
+git.KeyHasPassphrase.PersonalValue = true;
+
+
+
 %% Capstone Bundle Adjustment
 clc, clear, close all;
 
